@@ -117,3 +117,10 @@ The data gathered from profiles of employees and their attendances comes in frui
 
 <img width="509" alt="image" src="https://github.com/MuhammadHabibKhan/ems-mern/assets/92048010/b5a8daaa-9c6a-4b32-88f0-938107b03fd0">
 
+---------------------------------------------------------
+
+# Future Improvements
+
+- Make the CSS responsive for different screen sizes (my apologies honestly)
+- Add missing try catch statements to the code
+- Connect the ToDo List on Dashboard to the database
