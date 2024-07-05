@@ -57,7 +57,11 @@ Provides secure login by matching the username and password against the admin co
 A modern and elegantly designed dashboard with descriptive images as icons that uses an overlay design to display text when mouse is hovered over. A profile picture and cover photo section also exist which is static at the moment but can be utilized to personalize the experience of each user. The right side is provided with a clean To Do List to list down all your important tasks of the day so you won’t forget any. The dashboard also greets each user with their name on the screen fetched using APIs.
 
 <img width="937" alt="image" src="https://github.com/MuhammadHabibKhan/ems-mern/assets/92048010/74b0c906-d397-441d-b318-4330ea0f8a83">
-<img width="910" alt="image" src="https://github.com/MuhammadHabibKhan/ems-mern/assets/92048010/e82e56c0-ae33-4782-ae8c-2f581f5548be">
+<img width="944" alt="image" src="https://github.com/MuhammadHabibKhan/ems-mern/assets/92048010/b2e5b495-0d90-4dfb-ad6c-c53494a362da">
+
+Overlay Example:
+
+<img width="604" alt="image" src="https://github.com/MuhammadHabibKhan/ems-mern/assets/92048010/b8596ce9-4c18-40ec-bc4e-646a6919652a">
 
 ### Mark Attendance
 
@@ -91,8 +95,9 @@ This also allows for tracking of the balance and payment each client owes to the
 
 This feature also contains 3-sub features as the previous one but allows the admins to edit or delete existing profiles of admins, workers or clients. This allows for any sort of change possible to the profiles as required. The APIs fetch the data from database once selecting the username (or company name in case of Client) and populates the fields with old data so that user may update accordingly and correctly. Client’s balance can also be updated here when a payment is made in between 2 orders. 
 
-Uploading only 'Edit Client Profile' Image for reference
 <img width="608" alt="image" src="https://github.com/MuhammadHabibKhan/ems-mern/assets/92048010/01523d6c-7a2b-458d-943e-188b921d2609">
+
+- Uploading only 'Edit Client Profile' Image for reference
 
 ### Add New Order
 
