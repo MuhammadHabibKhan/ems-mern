@@ -1,6 +1,6 @@
 # Enterprise Management System
 
-A comprehensive system designed to manage enterprise operations including attendance marking, salary calculations, order creation, and profile management for admin, worker, and clients. It also provides the ability to delete and update the said features. A brief detail is provided in the features section of this document.
+A simple system designed to manage enterprise operations including attendance marking, salary calculations, order creation, and profile management for admin, worker, and clients. It also provides the ability to delete and update the said features. A brief detail is provided in the features section of this document.
 
 ## Project Overview
 
