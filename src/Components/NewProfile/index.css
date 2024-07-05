@@ -1,0 +1,66 @@
+.newprofilecontainer{
+    max-width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 20px;  
+    padding-left: 40px;
+    background-color:rgb(211, 242, 255); 
+    border-radius: 50px;
+    display: flex;
+    
+    animation: fadeInAnimation ease-out 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: none;
+    
+    
+    @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        }
+    }
+}
+
+.admin{
+    display: flex;
+    /* background-color: red; */
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.adminImage{
+    /* display: flex; */
+    width: 80%;
+    height: auto;
+    align-self: center;
+}
+
+.workerImage{
+    /* display: flex; */
+    width: 70%;
+    height: auto;
+    align-self: center;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 90%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 20px;
+  }
+
+.admin:hover .overlay {
+    height: 100%;
+  }

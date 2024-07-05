@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+.attendance-form-container {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    background-color:rgb(211, 242, 255); 
+    border-radius: 50px;
+    border-width: 15px;
+    border-style: groove;
+    
+    animation: fadeInAnimation ease-out 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: none;
+    
+    
+    @keyframes fadeInAnimation {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+       }
+    }
+  }
+  
+  .form-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Poppins;
+  }
+  
+  .attendance-form {
+    display: grid;
+    grid-gap: 12px;
+  }
+  
+  .form-group {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+  }
+  
+  .form-label {
+    text-align: right;
+    padding-right: 10px;
+    width: 100px;
+  }
+  
+  .form-input {
+    margin-left: 60px;
+    width: 70%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  .form-select {
+    width: 72%;
+    margin-left: 60px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  .submit-button {
+    display: inline-block;
+    align-self: center;
+    justify-self: center;
+    padding: 9px 50px;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 25%;
+    margin-top: 4%;
+  }
+  
+  .submit-button:hover {
+    background-color: #0e80d6;
+  }
+
+  .delete-button {
+    display: inline-block;
+    align-self: center;
+    justify-self: center;
+    padding: 9px 50px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 25%;
+    margin-top: 1%;
+  }
+
+  .delete-button:hover {
+    background-color: salmon;
+  }
+
+
+  

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+.todo-list-container {
+    /* max-width: 300px; */
+    width: 290px;
+    height: 690px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: skyblue; */
+
+    border-radius: 20px;
+    font-family: Poppins;
+    font-size: medium;
+    border: 10px solid;
+    /* border-color: rgb(109, 103, 103); */
+    border-color: rgb(119, 119, 231);
+    border-style:outset;
+    margin-left: -7%;
+  }
+  
+  .todo-list {
+    list-style-type:disc;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .todo-list li {
+    margin-bottom: 10px;
+  }
+  
+  .add-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-item input {
+    flex-grow: 1;
+    padding: 5px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .add-item button {
+    background-color: #1e90ff;
+    width: 15%;
+    color: #fff;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  
+  .add-item button:hover {
+    background-color: #0e80d6;
+  }
+  

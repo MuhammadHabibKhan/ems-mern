@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* start with setting margins and padding zero */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: none;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+  }
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('D:\dev\ems\enterprise-management-system\ems\src\bg.jpg');
+    background-size: 100% auto, contain;
+    background-position: center;
+}
+
+.formBox{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(173, 159, 159, 0.4);
+    /* opacity: 0.5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    backdrop-filter: blur(0.5px); 
+    border-radius: 20px;
+    border: 10px outset rgba(0,0,0,0.5);
+}
+
+h2{
+    margin: auto;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    opacity: 1;
+}
+
+.inputBox{
+    position: relative;
+    margin: 30px 0;
+    opacity: 1;
+    width: 310px;
+    border-bottom: 2px solid white;
+}
+
+.inputBox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+
+.inputBox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: white;   
+}
+
+.inputBox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: white;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+button{
+   width: 100%;
+   height: 40px;
+   border-radius: 40px;
+   background-color: lightblue;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 1em;
+   font-weight: 600;
+   text-decoration: dashed;
+   margin-top: 10%;
+   transition: background-color 1.5s ease-in-out;
+}
+
+button:hover{
+    /* background-color: rgb(62, 62, 184); */
+    background-color: lightskyblue;
+}

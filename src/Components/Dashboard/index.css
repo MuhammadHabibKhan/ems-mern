@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: #b2d4f7;
+}
+
+.dash {
+  animation: fadeInAnimation ease-in-out 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  margin-bottom: 2%;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .dashboard-cover {
+    height: 30vh;
+    width: 100%;
+    /* background-color: #1e90ff; */
+    background-image: url('bg.jpg');
+    position: relative;
+    overflow: visible;
+    border-radius: 20px;
+  }
+
+  .profile-icon {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    background-image: url('admin.png');
+    background-position: center;
+    background-size: cover;
+    
+    position: absolute;
+    top: 100%;
+    left: 50px;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .dashboard-title {
+    font-size: 26px;
+    margin: 20px 0;
+    font-family: Poppins;
+  }
+  
+  .main{
+    display: flex;
+    margin-top: -3%;
+    width: 100vw;
+    height: 50vh;
+    /* background-color: blue; */
+    justify-content: left;
+
+  }
+
+  .dashboard-options {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    height: 40vh;
+    /* background-color: red; */
+    gap: 4%;
+    margin-left: 2%;
+    padding-left: 7%;
+    /* align-items: end; */
+    justify-content: center;
+    margin-top: 8%;
+  }
+  
+  /* .dashboard-option {
+    width: 200px;
+    height: 40px;
+    background-color: #f5f5f5;
+    background-image: url('admin.png');
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  } */
+  
+  .dashboard-option:hover {
+    background-color: #e0e0e0;
+  }
+
+  .todo{
+    margin-top: -10px;
+    margin-left: 6%;
+  }
+
+  .container {
+    position: relative;
+    width: 90%;
+    /* margin-left: -20%; */
+    cursor: pointer;
+  }
+  
+  .image {
+    display: block;
+    width: 90%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 90%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 20px;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  hr{
+    margin-top: -130px;
+    width: 15px;
+  }
+  
