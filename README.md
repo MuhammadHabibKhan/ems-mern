@@ -97,7 +97,8 @@ This feature also contains 3-sub features as the previous one but allows the adm
 
 <img width="608" alt="image" src="https://github.com/MuhammadHabibKhan/ems-mern/assets/92048010/01523d6c-7a2b-458d-943e-188b921d2609">
 
-- Uploading only 'Edit Client Profile' Image for reference
+
+Uploading only 'Edit Client Profile' Image for reference
 
 ### Add New Order
 
